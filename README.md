@@ -61,6 +61,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ##  Queries screenshots  <a name="queries"></a>
+<img src="./screenshots/date%20of%20birth.png"/>
+<img src="./screenshots/name%20ending%20with%20mon.png"/>
+<img src="./screenshots/Q3.png"/>
+<img src="./screenshots/Q4.png"/>
+ <img src="https://github.com/ridabensalem/vet-clinic/blob/animals-table/screenshots/Q5%20.png?raw=true"/>
+<img src="./screenshots/Q6.png"/>
+<img src="./screenshots/Q7.png"/>
+<img src="./screenshots/Q8.png"/>
+
 
 
 ## 💻 Getting Started <a name="getting-started"></a>

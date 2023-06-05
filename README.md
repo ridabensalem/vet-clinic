@@ -65,7 +65,7 @@
 <img src="./screenshots/name%20ending%20with%20mon.png"/>
 <img src="./screenshots/Q3.png"/>
 <img src="./screenshots/Q4.png"/>
-this one <img src="./screenshots/Q5.png"/>
+ <img src="https://github.com/ridabensalem/vet-clinic/blob/animals-table/screenshots/Q5%20.png?raw=true"/>
 <img src="./screenshots/Q6.png"/>
 <img src="./screenshots/Q7.png"/>
 <img src="./screenshots/Q8.png"/>

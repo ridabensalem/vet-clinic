@@ -61,7 +61,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ##  Queries screenshots  <a name="queries"></a>
-[](./screenshots/date%20of%20birth.png)
+<img src="./screenshots/date%20of%20birth.png"/>
 [](./screenshots/name%20ending%20with%20mon.png)
 [](./screenshots/Q3.png)
 [](./screenshots/Q4.png)

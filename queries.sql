@@ -19,13 +19,23 @@ SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 -- Query 1: update the animals table by setting the species column to unspecified
 UPDATE animals SET species = 'unspecified';
 -- Query 2: Update the animals table by setting the species column to digimon for all animals that have a name ending in mon
+BEGIN;
 UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
--- Query 3: Update the animals table by setting the species column to pokemon for  all animals that don't have species already set.
-UPDATE animals SET species = 'pokemon' WHERE species='';
--- Query 4:  Inside a transaction delete all records in the animals table then rollback
-BEGIN TRANSACTION;
-DELETE FROM animals;
 ROLLBACK;
+SELECT COUNT(*) FROM animals WHERE species = 'digimon';
+-- Query 3: Update the animals table by setting the species column to pokemon for  all animals that don't have species already set.
+BEGIN;
+UPDATE animals SET species = 'pokemon' WHERE species='';
+ROLLBACK;
+SELECT COUNT(*) FROM animals WHERE species = '';
+-- Query 4:  Inside a transaction delete all records in the animals table then rollback
+   BEGIN;
+
+   DELETE FROM animals WHERE ;
+   SELECT COUNT(*) FROM ANIMALS;
+
+   ROLLBACK;
+   SELECT COUNT(*) FROM ANIMALS;
 -- Query 5: Delete all animals born after Jan 1st, 2022
 DELETE FROM animals WHERE date_of_birth > '2022-01-01';
 -- Query 6: Create a savepoint for the transaction.

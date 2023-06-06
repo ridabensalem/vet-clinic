@@ -69,7 +69,20 @@
 <img src="./screenshots/Q6.png"/>
 <img src="./screenshots/Q7.png"/>
 <img src="./screenshots/Q8.png"/>
-
+##screenshots of query and update animals table
+<img src="./screenshots/QU1.png"/>
+<img src="./screenshots/QU2.png"/>
+<img src="./screenshots/QU3.png"/>
+<img src="./screenshots/QU4.png"/>
+<img src="./screenshots/QU5.png"/>
+<img src="./screenshots/QU6.png"/>
+<img src="./screenshots/QU7.png"/>
+<img src="./screenshots/QU8.png"/>
+<img src="./screenshots/QU9.png"/>
+<img src="./screenshots/QU10.png"/>
+<img src="./screenshots/QU11.png"/>
+<img src="./screenshots/QU12.png"/>
+<img src="./screenshots/QU13.png"/>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>

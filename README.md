@@ -83,6 +83,14 @@
 <img src="./screenshots/QU11.png"/>
 <img src="./screenshots/QU12.png"/>
 <img src="./screenshots/QU13.png"/>
+##Screenshots of Jointures table 
+<img src="./screenshots/Jointure_1.png"/>
+<img src="./screenshots/Jointure_2.png"/>
+<img src="./screenshots/Jointure_3.png"/>
+<img src="./screenshots/Jointure_4.png"/>
+<img src="./screenshots/Jointure_5.png"/>
+<img src="./screenshots/Jointure_6.png"/>
+<img src="./screenshots/Jointure_7.png"/>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>

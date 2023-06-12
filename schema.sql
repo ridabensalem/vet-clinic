@@ -54,3 +54,12 @@ CREATE TABLE visits (
     animal_id INTEGER REFERENCES animals(id),
     date_of_visit DATE
 );
+/*-----------------------Database performance --------------------------------*/
+-- Add an email column to the  owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+--indexing the animal_id column on visits table to improve performance
+--the used query is:SELECT COUNT(*) FROM visits where animal_id = 4;
+CREATE INDEX animal_id_index ON visits (animal_id);
+--indexing the vet_id column on visits table to improve performance
+--the used query is:SELECT COUNT(*) FROM visits where vet_id = 2;
+CREATE INDEX vet_id_index ON visits (vet_id);

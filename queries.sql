@@ -160,3 +160,5 @@ GROUP BY species.name
 ORDER BY visit_count DESC
 LIMIT 1;
 
+-- Perfomance query analysis
+EXPLAIN ANALYSE SELECT * FROM owners where email = 'owner_18327@mail.com';

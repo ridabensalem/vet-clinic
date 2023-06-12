@@ -63,3 +63,6 @@ CREATE INDEX animal_id_index ON visits (animal_id);
 --indexing the vet_id column on visits table to improve performance
 --the used query is:SELECT COUNT(*) FROM visits where vet_id = 2;
 CREATE INDEX vet_id_index ON visits (vet_id);
+--indexing the email column on owners table to improve performance
+--the used query is:SELECT COUNT(*) FROM owners where email = 'owner_18327@mail.com';
+CREATE INDEX email_index ON owners(email);

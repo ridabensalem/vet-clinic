@@ -57,3 +57,5 @@ CREATE TABLE visits (
 /*-----------------------Database performance --------------------------------*/
 -- Add an email column to the  owners table
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+
